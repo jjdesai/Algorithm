@@ -67,6 +67,7 @@
 #define ALGORITHM(X)                                                    \
     X(APPLY_ALL_SORTING,    "All Sorting",          All_Sort)           \
     X(BUBBLE_SORT,          "Bubble Sort",          Bubble_Sort)        \
+    X(SELECTION_SORT,       "Selection Sort",       Selection_Sort)     \
     X(MAX_SORTING,          "Max Algorithm",        NULL)               \
 
 typedef enum { ALGORITHM(GENERATE_ENUM) }ALGORITHM_enum;
@@ -89,5 +90,6 @@ int * InputFromTerminal(unsigned int * array_size_ptr);
 // Algorithm Function to be added below
 void All_Sort(int * array_ptr, unsigned int array_size);
 void Bubble_Sort(int * array_ptr, unsigned int array_size);
+void Selection_Sort(int * array_ptr, unsigned int array_size);
 
 #endif
