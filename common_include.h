@@ -64,11 +64,15 @@
 #define GENERATE_STRING(enum, string, function_ptr)             string,
 #define GENERATE_FUNCTION_POINTER(enum, string, function_ptr)   function_ptr,
 
-#define ALGORITHM(X)                                                    \
-    X(APPLY_ALL_SORTING,    "All Sorting",          All_Sort)           \
-    X(BUBBLE_SORT,          "Bubble Sort",          Bubble_Sort)        \
-    X(SELECTION_SORT,       "Selection Sort",       Selection_Sort)     \
-    X(MAX_SORTING,          "Max Algorithm",        NULL)               \
+#define ALGORITHM(X)                                                                    \
+    X(APPLY_ALL_SORTING,        "All Sorting",              All_Sort)                   \
+    X(BUBBLE_SORT,              "Bubble Sort",              Bubble_Sort)                \
+    X(SELECTION_SORT,           "Selection Sort",           Selection_Sort)             \
+    X(INSERTION_SORT,           "Insertion Sort",           Insertion_Sort)             \
+    X(RECURSIVE_INSERTION_SORT, "Recursive Insertion Sort", Recursive_Insertion_Sort)   \
+    X(PANCAKE_SORT,             "Pancake Sort",             Pancake_Sort)               \
+    X(BOGO_PERMUTATION_SORT,    "Bogo/Permutation Sort",    Bogo_Sort)                  \
+    X(MAX_SORTING,              "Max Algorithm",            NULL)                       \
 
 typedef enum { ALGORITHM(GENERATE_ENUM) }ALGORITHM_enum;
 
@@ -91,5 +95,9 @@ int * InputFromTerminal(unsigned int * array_size_ptr);
 void All_Sort(int * array_ptr, unsigned int array_size);
 void Bubble_Sort(int * array_ptr, unsigned int array_size);
 void Selection_Sort(int * array_ptr, unsigned int array_size);
+void Insertion_Sort(int * array_ptr, unsigned int array_size);
+void Recursive_Insertion_Sort(int * array_ptr, unsigned int array_size);
+void Bogo_Sort(int * array_ptr, unsigned int array_size);
+void Pancake_Sort(int * array_ptr, unsigned int array_size);
 
 #endif

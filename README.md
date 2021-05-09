@@ -2,18 +2,18 @@
 Sorting_Algorithm Repository is having almost all the sorting algorithm with it's short detail description.
 
 Below is the list of algorithm which are going to be implemet.
-- Quick Sort
-- Iterative Quick Sort
-- Bubble Sort
-- Recursive Bubble Sort
+- [Quick Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/quick_sort.c)
+- [Iterative Quick Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/iterative_quick_sort.c)
+- [Bubble Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/bubble_sort.c)
+- [Recursive Bubble Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/recursive_bubble_sort.c)
 - Binary Search Algorithm
 - Breadth First Search
-- Merge Sort
-- Iterative Merge Sort
-- Insertion Sort
-- Recursive Insertion Sort
+- [Merge Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/merge_sort.c)
+- [Iterative Merge Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/iterative_merge_sort.c)
+- [Insertion Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/insertion_sort.c)
+- [Recursive Insertion Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/recursive_selection_sort.c)
 - Binary Insertion Sort
-- Selection Sort
+- [Selection Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/selection_sort.c)
 - A* Search Algorithm
 - Heapsort
 - Linear Search
@@ -21,16 +21,16 @@ Below is the list of algorithm which are going to be implemet.
 - MSD Radix Sort
 - MSD Radix Sort(in-place)
 - Shell Sort
-- Counting Sort
-- Bogosort (Permutation Sort)
+- [Counting Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/counting_sort.c)
+- [Bogosort (Permutation Sort)](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/bogo_sort.c)
 - Timsort
 - Iterative deepening depth first Search
 - Bitonic Sort
-- Cocktail Sort
+- [Cocktail Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/cocktail_sort.c)
 - Cocktail shaker sort
 - Gnome Sort
-- Pancake Sort
-- Comb Sort
+- [Pancake Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/pancake_sort.c)
+- [Comb Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/comb_sort.c)
 - Intro Sort
 - Tree Sort
 - Sorting Network

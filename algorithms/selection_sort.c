@@ -3,6 +3,18 @@
 
 #include "./../common_include.h"
 
+/*
+    Author              : Jay Desai
+    Algorithm           : Selection Sort
+    Worst Complexity    : n^2
+    Average Complexity  : n^2
+    Best Complexity     : n^2
+    Space Complexity    : 1
+    Method              : Selection
+    Stable              : No
+    Class               : Comparison Sort
+*/
+
 void Selection_Sort(int * array_ptr, unsigned int array_size)
 {
     if(array_ptr)

@@ -2,6 +2,18 @@
 
 #include "./../common_include.h"
 
+/*
+    Author              : Jay Desai
+    Algorithm           : Bubble Sort
+    Worst Complexity    : n^2
+    Average Complexity  : n^2
+    Best Complexity     : n
+    Space Complexity    : 1
+    Method              : Exchanging
+    Stable              : Yes
+    Class               : Comparison Sort
+*/
+
 void Bubble_Sort(int * array_ptr, unsigned int array_size)
 {
     if(array_ptr)
