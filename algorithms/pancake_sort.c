@@ -34,19 +34,6 @@ unsigned int FindMaxValueIndex(int * array_ptr, unsigned int array_size)
     return max;
 }
 
-// void Pancake_Sort(int * array_ptr, unsigned int array_size)
-// {
-//     for(int curr_size = array_size; curr_size > 1; --curr_size)
-//     {
-//         int mi = FindMaxValueIndex(array_ptr, curr_size);
-//         if (mi != curr_size - 1)
-//         {
-//             Flip(array_ptr, mi);
-//             Flip(array_ptr, curr_size - 1);
-//         }
-//     }
-// }
-
 void Pancake_Sort(int * array_ptr, unsigned int array_size)
 {
     if(array_ptr)

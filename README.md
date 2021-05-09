@@ -66,17 +66,17 @@ Below is the list of algorithm which are going to be implemet.
 Hello People,
     You can contribute to this repo by following below steps.
 
-* Add <algorith_name.c> file in algorithm folder
+1. Add <algorith_name.c> file in algorithm folder
 
     Example, bubble_sort.c
 
-* Write Algorithm. Function argument is fixed and mentined below
+2. Write Algorithm. Function argument is fixed and mentined below
 
     void algorithm_sort(int * array_ptr, unsigned int array_size)
     Example, void Bubble_Sort(int * array_ptr, unsigned int array_size)
 
-* Add Function declaration in common_include.h
+3. Add Function declaration in common_include.h
 
-* Add Algorithm related information in ALGORITHM() define above MAX_SORTING
+4. Add Algorithm related information in ALGORITHM() define above MAX_SORTING
 
-* Compile code and check whether your algorithm code is working or not
+5. Compile code and check whether your algorithm code is working or not
