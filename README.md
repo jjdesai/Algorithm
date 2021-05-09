@@ -27,7 +27,6 @@ Below is the list of algorithm which are going to be implemet.
 - Iterative deepening depth first Search
 - Bitonic Sort
 - [Cocktail Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/cocktail_sort.c)
-- Cocktail shaker sort
 - Gnome Sort
 - [Pancake Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/pancake_sort.c)
 - [Comb Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/comb_sort.c)
@@ -45,7 +44,7 @@ Below is the list of algorithm which are going to be implemet.
 - Smooth Sort
 - Block Sort
 - Library Sort
-- Cubesort
+- [Cube Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/cube_sort.c)
 - Spaghetti Sort
 - Spread Sort
 - Burst Sort
