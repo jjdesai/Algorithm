@@ -71,6 +71,7 @@
     X(INSERTION_SORT,           "Insertion Sort",           Insertion_Sort)             \
     X(RECURSIVE_INSERTION_SORT, "Recursive Insertion Sort", Recursive_Insertion_Sort)   \
     X(PANCAKE_SORT,             "Pancake Sort",             Pancake_Sort)               \
+    X(COCKTAIL_SORT,            "Cocktail Sort",            Cocktail_Sort)              \
     X(BOGO_PERMUTATION_SORT,    "Bogo/Permutation Sort",    Bogo_Sort)                  \
     X(MAX_SORTING,              "Max Algorithm",            NULL)                       \
 
@@ -99,5 +100,6 @@ void Insertion_Sort(int * array_ptr, unsigned int array_size);
 void Recursive_Insertion_Sort(int * array_ptr, unsigned int array_size);
 void Bogo_Sort(int * array_ptr, unsigned int array_size);
 void Pancake_Sort(int * array_ptr, unsigned int array_size);
+void Cocktail_Sort(int * array_ptr, unsigned int array_size);
 
 #endif
