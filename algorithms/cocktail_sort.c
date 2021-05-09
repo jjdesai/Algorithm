@@ -18,7 +18,7 @@ void Cocktail_Sort(int * array_ptr, unsigned int array_size)
 {
     if(array_ptr)
     {  
-        int is_swapped = 1;
+        int is_swapped = TRUE;
         int i;
         int begin, end;
 
