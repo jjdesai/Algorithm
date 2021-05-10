@@ -77,8 +77,10 @@
     X(ODD_EVEN_SORT,            "Odd Even Sort(Brick Sort)",Odd_Even_Sort)              \
     X(COMB_SORT,                "Comb Sort",                Comb_Sort)                  \
     X(BEAD_SORT,                "Bead Sort",                Bead_Sort)                  \
+    X(COUNTING_SORT,            "Counting Sort",            Counting_Sort)              \
     X(BOGO_PERMUTATION_SORT,    "Bogo/Permutation Sort",    Bogo_Sort)                  \
     X(MAX_SORTING,              "Max Algorithm",            OutOfRange)                 \
+    
 
 typedef enum { ALGORITHM(GENERATE_ENUM) }ALGORITHM_enum;
 
