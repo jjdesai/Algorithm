@@ -65,3 +65,7 @@ void All_Sort(int * array_ptr, unsigned int array_size)
     }
 }
 
+void OutOfRange(int * array_ptr, unsigned int array_size)
+{
+    ERROR("User choose invalid algorithm");
+}

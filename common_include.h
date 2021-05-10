@@ -60,9 +60,11 @@
 
 #define FREE(pointer)   if(pointer) { free(pointer); pointer=NULL;  }
 
-#define GENERATE_ENUM(enum, string, function_ptr)               enum,
-#define GENERATE_STRING(enum, string, function_ptr)             string,
-#define GENERATE_FUNCTION_POINTER(enum, string, function_ptr)   function_ptr,
+#define GENERATE_ENUM(enum, string, function_ptr)                   enum,
+#define GENERATE_STRING(enum, string, function_ptr)                 string,
+#define GENERATE_FUNCTION_POINTER(enum, string, function_ptr)       function_ptr,
+#define GENERATE_FUNCTION_DECLARATION(enum, string, function_ptr)   \
+                void function_ptr(int * array_ptr, unsigned int array_size);
 
 #define ALGORITHM(X)                                                                    \
     X(APPLY_ALL_SORTING,        "All Sorting",              All_Sort)                   \
@@ -74,8 +76,9 @@
     X(COCKTAIL_SORT,            "Cocktail Sort",            Cocktail_Sort)              \
     X(ODD_EVEN_SORT,            "Odd Even Sort(Brick Sort)",Odd_Even_Sort)              \
     X(COMB_SORT,                "Comb Sort",                Comb_Sort)                  \
+    X(BEAD_SORT,                "Bead Sort",                Bead_Sort)                  \
     X(BOGO_PERMUTATION_SORT,    "Bogo/Permutation Sort",    Bogo_Sort)                  \
-    X(MAX_SORTING,              "Max Algorithm",            NULL)                       \
+    X(MAX_SORTING,              "Max Algorithm",            OutOfRange)                 \
 
 typedef enum { ALGORITHM(GENERATE_ENUM) }ALGORITHM_enum;
 
@@ -95,15 +98,7 @@ int * InputFromFile(unsigned int * array_size_ptr, char * file_name_ptr);
 int * InputFromTerminal(unsigned int * array_size_ptr);
 
 // Algorithm Function to be added below
-void All_Sort(int * array_ptr, unsigned int array_size);
-void Bubble_Sort(int * array_ptr, unsigned int array_size);
-void Selection_Sort(int * array_ptr, unsigned int array_size);
-void Insertion_Sort(int * array_ptr, unsigned int array_size);
-void Recursive_Insertion_Sort(int * array_ptr, unsigned int array_size);
-void Bogo_Sort(int * array_ptr, unsigned int array_size);
-void Pancake_Sort(int * array_ptr, unsigned int array_size);
-void Cocktail_Sort(int * array_ptr, unsigned int array_size);
-void Odd_Even_Sort(int * array_ptr, unsigned int array_size);
-void Comb_Sort(int * array_ptr, unsigned int array_size);
+
+ALGORITHM(GENERATE_FUNCTION_DECLARATION)
 
 #endif
