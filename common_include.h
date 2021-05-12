@@ -78,6 +78,7 @@
     X(COMB_SORT,                "Comb Sort",                Comb_Sort)                  \
     X(BEAD_SORT,                "Bead Sort",                Bead_Sort)                  \
     X(COUNTING_SORT,            "Counting Sort",            Counting_Sort)              \
+    X(GNOME_SORT,               "Gnome Sort",               Gnome_Sort)                 \
     X(BOGO_PERMUTATION_SORT,    "Bogo/Permutation Sort",    Bogo_Sort)                  \
     X(MAX_SORTING,              "Max Algorithm",            OutOfRange)                 \
     
