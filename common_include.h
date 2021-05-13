@@ -79,9 +79,9 @@
     X(BEAD_SORT,                "Bead Sort",                Bead_Sort)                  \
     X(COUNTING_SORT,            "Counting Sort",            Counting_Sort)              \
     X(GNOME_SORT,               "Gnome Sort",               Gnome_Sort)                 \
+    X(SHELL_SORT,               "Shell Sort",               Shell_Sort)                 \
     X(BOGO_PERMUTATION_SORT,    "Bogo/Permutation Sort",    Bogo_Sort)                  \
     X(MAX_SORTING,              "Max Algorithm",            OutOfRange)                 \
-    
 
 typedef enum { ALGORITHM(GENERATE_ENUM) }ALGORITHM_enum;
 
@@ -101,7 +101,6 @@ int * InputFromFile(unsigned int * array_size_ptr, char * file_name_ptr);
 int * InputFromTerminal(unsigned int * array_size_ptr);
 
 // Algorithm Function to be added below
-
 ALGORITHM(GENERATE_FUNCTION_DECLARATION)
 
 #endif
