@@ -20,14 +20,14 @@ Below is the list of algorithm which are going to be implemet.
 - Radix Sort
 - MSD Radix Sort
 - MSD Radix Sort(in-place)
-- Shell Sort
+- [Shell Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/shell_sort.c)
 - [Counting Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/counting_sort.c)
 - [Bogosort (Permutation Sort)](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/bogo_sort.c)
 - Timsort
 - Iterative deepening depth first Search
 - Bitonic Sort
 - [Cocktail Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/cocktail_sort.c)
-- Gnome Sort
+- [Gnome Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/gnome_sort.c)
 - [Pancake Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/pancake_sort.c)
 - [Comb Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/comb_sort.c)
 - Intro Sort
