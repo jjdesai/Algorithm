@@ -45,7 +45,7 @@ Below is the list of algorithm which are going to be implemet.
 - Block Sort
 - Library Sort
 - [Cube Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/cube_sort.c)
-- Spaghetti Sort
+- [Spaghetti Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/spaghetti_sort.c)
 - Spread Sort
 - Burst Sort
 - Franceschini's sorting
