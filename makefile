@@ -5,7 +5,7 @@
 
 # compiler to use
 CC = gcc
-RM = del
+RM = del	# del is for windows platfor, For Linux platform one can use rm -rf
 CFLAGS = -Wall
 DEPS = sort_common.h sort_algo.h
 CSRC = main.c \
