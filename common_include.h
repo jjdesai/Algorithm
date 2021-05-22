@@ -101,6 +101,9 @@ ALGORITHM_enum ChoiceOfAlgorithm(void);
 int * InputFromFile(unsigned int * array_size_ptr, char * file_name_ptr);
 int * InputFromTerminal(unsigned int * array_size_ptr);
 
+void SetTimer(void);
+void CheckDifference(const char * Str);
+
 // Algorithm Function to be added below
 ALGORITHM(GENERATE_FUNCTION_DECLARATION)
 

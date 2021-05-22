@@ -57,7 +57,9 @@ void All_Sort(int * array_ptr, unsigned int array_size)
                 dummy_array_ptr[j] = array_ptr[j];
 
             PRINT_BEFORE(dummy_array_ptr, array_size, i);
+            SetTimer();
             algorithm_function_ptr[i](dummy_array_ptr, array_size);
+            CheckDifference(algorithm_str[i]);
             PRINT_AFTER(dummy_array_ptr, array_size, i);
         }
 
