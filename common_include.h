@@ -81,6 +81,7 @@
     X(GNOME_SORT,               "Gnome Sort",               Gnome_Sort)                 \
     X(SHELL_SORT,               "Shell Sort",               Shell_Sort)                 \
     X(SPAGHETTI_SORT,           "Spaghetti Sort",           Spaghetti_Sort)             \
+    X(MERGE_SORT,               "Merge Sort",               Merge_Sort)                 \
     X(BOGO_PERMUTATION_SORT,    "Bogo/Permutation Sort",    Bogo_Sort)                  \
     X(MAX_SORTING,              "Max Algorithm",            OutOfRange)                 \
 
