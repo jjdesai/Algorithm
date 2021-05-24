@@ -18,18 +18,24 @@ int main(int argc, char ** argv)
     do
     {
         file_name_ptr = ChoiceOfInputMenu(&input_choice);
-        if(input_choice == ARRAY_INPUT_CHOICE_TERMINAL)
+
+        switch(input_choice)
         {
-            array_ptr = InputFromTerminal(&array_size);
-        }
-        else if(input_choice == ARRAY_INPUT_CHOICE_FILE)
-        {
-            array_ptr = InputFromFile(&array_size, file_name_ptr);
-        }
-        else
-        {
-            ERROR("Invalid choice of input selected by User");
-            return -1;
+            case ARRAY_INPUT_CHOICE_TERMINAL:
+                array_ptr = InputFromTerminal(&array_size);
+                break;
+
+            case ARRAY_INPUT_CHOICE_FILE:
+                array_ptr = InputFromFile(&array_size, file_name_ptr);
+                break;
+
+            case ARRAY_INPUT_FROM_INPUT_TXT:
+                array_ptr = InputFromFile(&array_size, "Input.txt");
+                break;
+
+            default:
+                ERROR("Invalid choice of input selected by User");
+                return -1;
         }
 
         if(NULL == array_ptr)  return -1;

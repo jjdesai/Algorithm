@@ -13,8 +13,9 @@
 #define MIN_ARRAY_SIZE      2
 #define	MAX_ARRAY_SIZE      100
 
-#define ARRAY_INPUT_CHOICE_TERMINAL   1
-#define ARRAY_INPUT_CHOICE_FILE       2
+#define ARRAY_INPUT_CHOICE_TERMINAL     1
+#define ARRAY_INPUT_CHOICE_FILE         2
+#define ARRAY_INPUT_FROM_INPUT_TXT      3
 
 //#define DEBUG_LOG   1
 //#define ERROR_LOG   2

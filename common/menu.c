@@ -23,6 +23,7 @@ char * ChoiceOfInputMenu(int * input_choice_ptr)
     YELLOW_COLOR;
     printf(" \t1. Terminal\n");
     printf(" \t2. File\n");
+    printf(" \t3. Use Input.txt file(Option for Developer)\n");
     RESET_COLOR;
 
     printf(" Enter your choice : ");
