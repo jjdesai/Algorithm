@@ -55,6 +55,8 @@ Below is the list of algorithm which are going to be implemet.
 - Cartesian Tree Sorting
 - Heap Sort
 
+![Sorting Algorithm Classification](SortingAlgorithm_Classification.jpg)
+
 # How to contribute
 
 Hello People,
@@ -74,6 +76,5 @@ Hello People,
 4. Add Algorithm related information in ALGORITHM() define above MAX_SORTING
 
 5. Compile code and check whether your algorithm code is working or not
-
 
 **Note : Work in Progress**
