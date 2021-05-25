@@ -13,15 +13,6 @@
     Stable              : Yes
     Class               : Non Comparing Sort
 */
-
-int FindMaxValue(int * array_ptr, unsigned int array_size)
-{
-    int max=array_ptr[0];
-    for(int i=1; i<array_size; i++)
-        if(array_ptr[i] > max)
-            max = array_ptr[i];
-    return max;
-}
  
 void Counting_Sort(int array_ptr[], unsigned int array_size)
 {

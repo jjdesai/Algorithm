@@ -59,8 +59,8 @@ void All_Sort(int * array_ptr, unsigned int array_size)
             PRINT_BEFORE(dummy_array_ptr, array_size, i);
             SetTimer();
             algorithm_function_ptr[i](dummy_array_ptr, array_size);
-            CheckDifference(algorithm_str[i]);
             PRINT_AFTER(dummy_array_ptr, array_size, i);
+            CheckDifference(algorithm_str[i]);
         }
 
         FREE(dummy_array_ptr);
@@ -70,4 +70,13 @@ void All_Sort(int * array_ptr, unsigned int array_size)
 void OutOfRange(int * array_ptr, unsigned int array_size)
 {
     ERROR("User choose invalid algorithm");
+}
+
+int FindMaxValue(int * array_ptr, unsigned int array_size)
+{
+    int max=array_ptr[0];
+    for(int i=1; i<array_size; i++)
+        if(array_ptr[i] > max)
+            max = array_ptr[i];
+    return max;
 }

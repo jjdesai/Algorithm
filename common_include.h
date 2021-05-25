@@ -83,6 +83,7 @@
     X(SHELL_SORT,               "Shell Sort",               Shell_Sort)                 \
     X(SPAGHETTI_SORT,           "Spaghetti Sort",           Spaghetti_Sort)             \
     X(MERGE_SORT,               "Merge Sort",               Merge_Sort)                 \
+    X(RADIX_SORT,               "Radix Sort",               Radix_Sort)                 \
     X(BOGO_PERMUTATION_SORT,    "Bogo/Permutation Sort",    Bogo_Sort)                  \
     X(MAX_SORTING,              "Max Algorithm",            OutOfRange)                 \
 
@@ -95,6 +96,7 @@ void LogPrint(int prio, char * msg);
 void Swap(int * arrayPtr, int index_1, int index_2);
 void PrintArray(const char * str, int * array_ptr, unsigned int array_size, ALGORITHM_enum algo_choice);
 int IsArraySizeValid(int array_size);
+int FindMaxValue(int * array_ptr, unsigned int array_size);
 
 void Inroduction(void);
 char * ChoiceOfInputMenu(int * input_choice_ptr);

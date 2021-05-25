@@ -46,8 +46,8 @@ int main(int argc, char ** argv)
             if(algorithm_choice)   PRINT_BEFORE(array_ptr, array_size, algorithm_choice);
             SetTimer();
             algorithm_function_ptr[algorithm_choice](array_ptr, array_size);
-            CheckDifference(algorithm_str[algorithm_choice]);
             if(algorithm_choice)   PRINT_AFTER(array_ptr, array_size, algorithm_choice);
+            CheckDifference(algorithm_str[algorithm_choice]);
         }
         else
         {
