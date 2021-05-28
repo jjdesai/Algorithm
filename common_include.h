@@ -93,7 +93,7 @@ typedef enum { ALGORITHM(GENERATE_ENUM) }ALGORITHM_enum;
 #define PRINT_BEFORE(x,y,z) PrintArray("Before", x,y,z)
 
 void LogPrint(int prio, char * msg);
-void Swap(int * arrayPtr, int index_1, int index_2);
+void Swap(int * arrayPtr1, int * arrayPtr2);
 void PrintArray(const char * str, int * array_ptr, unsigned int array_size, ALGORITHM_enum algo_choice);
 int IsArraySizeValid(int array_size);
 int FindMaxValue(int * array_ptr, unsigned int array_size);

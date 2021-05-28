@@ -37,7 +37,7 @@ void Comb_Sort(int array_ptr[], unsigned int array_size)
             {
                 if (array_ptr[i] > array_ptr[i+gap])
                 {
-                    Swap(array_ptr, i, i+gap);
+                    Swap(&array_ptr[i], &array_ptr[i+gap]);
                     is_swapped = TRUE;
                 }
             }

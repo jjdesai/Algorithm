@@ -25,7 +25,10 @@ int IsSorted(int * array_ptr, unsigned int array_size)
 void Shuffle(int * array_ptr, unsigned int array_size)
 {
     for(int i=0; i<array_size; i++)
-        Swap(array_ptr, i, (rand()%array_size));
+    {
+        unsigned int randnumber = rand()%array_size;
+        Swap(&array_ptr[i], &array_ptr[randnumber]);
+    }
 }
 
 void Bogo_Sort(int * array_ptr, unsigned int array_size)

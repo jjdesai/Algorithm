@@ -26,7 +26,7 @@ void Gnome_Sort(int * array_ptr, unsigned int array_size)
             
             if(array_ptr[i] < array_ptr[i-1])
             {
-                Swap(array_ptr, i, i-1);
+                Swap(&array_ptr[i], &array_ptr[i-1]);
                 i--;
             }
             else if(array_ptr[i] >= array_ptr[i-1])

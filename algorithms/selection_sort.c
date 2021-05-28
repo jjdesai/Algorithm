@@ -22,7 +22,7 @@ void Selection_Sort(int * array_ptr, unsigned int array_size)
         for(int i=0; i<array_size-1; i++)
             for(int j=i+1; j<array_size; j++)
                 if(array_ptr[j] < array_ptr[i])
-                    Swap(array_ptr, i, j);
+                    Swap(&array_ptr[i], &array_ptr[j]);
     }
     else
     {

@@ -21,7 +21,7 @@ void Bubble_Sort(int * array_ptr, unsigned int array_size)
         for(int i=0; i<array_size; i++)
             for(int j=0; j<array_size-i-1; j++)
                 if(array_ptr[j] > array_ptr[j+1])
-                    Swap(array_ptr, j, j+1);
+                    Swap(&array_ptr[j], &array_ptr[j+1]);
     }
     else
     {

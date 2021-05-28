@@ -19,13 +19,13 @@ void LogPrint(int prio, char * msg)
     RESET_COLOR;
 }
 
-void Swap(int * arrayPtr, int index_1, int index_2)
+void Swap(int * arrayPtr1, int * arrayPtr2)
 {
-    if(arrayPtr)
+    if(arrayPtr1 && arrayPtr2)
     {
-        int temp = arrayPtr[index_1];
-        arrayPtr[index_1] = arrayPtr[index_2];
-        arrayPtr[index_2] = temp;
+        int temp = *arrayPtr1;
+        *arrayPtr1 = *arrayPtr2;
+        *arrayPtr2 = temp;
     }
 }
 

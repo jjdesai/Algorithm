@@ -19,7 +19,7 @@ void Flip(int * array_ptr, unsigned int array_size)
     int start = 0;
     while(start < array_size)
     {
-        Swap(array_ptr, start, array_size);
+        Swap(&array_ptr[start], &array_ptr[array_size]);
         array_size--;
         start++;
     }

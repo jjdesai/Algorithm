@@ -30,7 +30,7 @@ void Cocktail_Sort(int * array_ptr, unsigned int array_size)
             {
                 if(array_ptr[i] > array_ptr[i+1])
                 {
-                    Swap(array_ptr, i, i+1);
+                    Swap(&array_ptr[i], &array_ptr[i+1]);
                     is_swapped = TRUE;
                 }
             }
@@ -43,7 +43,7 @@ void Cocktail_Sort(int * array_ptr, unsigned int array_size)
             {
                 if(array_ptr[i-1] > array_ptr[i])
                 {
-                    Swap(array_ptr, i, i-1);
+                    Swap(&array_ptr[i], &array_ptr[i-1]);
                     is_swapped = TRUE;
                 }
             }

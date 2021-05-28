@@ -28,7 +28,7 @@ void Odd_Even_Sort(int * array_ptr, unsigned int array_size)
             {
                 if (array_ptr[i] > array_ptr[i+1])
                 {
-                    Swap(array_ptr, i, i+1);
+                    Swap(&array_ptr[i], &array_ptr[i+1]);
                     isSorted = FALSE;
                 }
             }
@@ -38,7 +38,7 @@ void Odd_Even_Sort(int * array_ptr, unsigned int array_size)
             {
                 if (array_ptr[i] > array_ptr[i+1])
                 {
-                    Swap(array_ptr, i, i+1);
+                    Swap(&array_ptr[i], &array_ptr[i+1]);
                     isSorted = FALSE;
                 }
             }
