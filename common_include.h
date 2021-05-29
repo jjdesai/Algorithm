@@ -70,6 +70,7 @@
 #define ALGORITHM(X)                                                                    \
     X(APPLY_ALL_SORTING,        "All Sorting",              All_Sort)                   \
     X(BUBBLE_SORT,              "Bubble Sort",              Bubble_Sort)                \
+    X(RECURSIVE_BUBBLE_SORT,    "Recursive Bubble Sort",    Recursive_Bubble_Sort)      \
     X(SELECTION_SORT,           "Selection Sort",           Selection_Sort)             \
     X(INSERTION_SORT,           "Insertion Sort",           Insertion_Sort)             \
     X(RECURSIVE_INSERTION_SORT, "Recursive Insertion Sort", Recursive_Insertion_Sort)   \
