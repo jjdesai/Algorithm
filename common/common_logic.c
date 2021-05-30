@@ -47,23 +47,34 @@ int IsArraySizeValid(int array_size)
 
 void All_Sort(int * array_ptr, unsigned int array_size)
 {
-    int * dummy_array_ptr = (int *)calloc(array_size, sizeof(int));
-    if(dummy_array_ptr)
+    if(array_ptr)
     {
-        for(ALGORITHM_enum i=1; i<MAX_SORTING; i++)
+        int * dummy_array_ptr = (int *)calloc(array_size, sizeof(int));
+        if(dummy_array_ptr)
         {
-            printf(" ************************* \n");
-            for(int j=0; j<array_size; j++)
-                dummy_array_ptr[j] = array_ptr[j];
+            for(ALGORITHM_enum i=1; i<MAX_SORTING; i++)
+            {
+                printf(" ************************* \n");
+                for(int j=0; j<array_size; j++)
+                    dummy_array_ptr[j] = array_ptr[j];
 
-            PRINT_BEFORE(dummy_array_ptr, array_size, i);
-            SetTimer();
-            algorithm_function_ptr[i](dummy_array_ptr, array_size);
-            PRINT_AFTER(dummy_array_ptr, array_size, i);
-            CheckDifference(algorithm_str[i]);
+                PRINT_BEFORE(dummy_array_ptr, array_size, i);
+                SetTimer();
+                algorithm_function_ptr[i](dummy_array_ptr, array_size);
+                PRINT_AFTER(dummy_array_ptr, array_size, i);
+                CheckDifference(algorithm_str[i]);
+            }
+
+            FREE(dummy_array_ptr);
         }
-
-        FREE(dummy_array_ptr);
+        else
+        {
+            ERROR("Memory allocation failed");
+        }
+    }
+    else
+    {
+        ERROR("Null pointer found");
     }
 }
 

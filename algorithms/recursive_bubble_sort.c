@@ -23,7 +23,7 @@ void Recursive_Bubble_Sort(int * array_ptr, unsigned int array_size)
 
         for(int i=0; i<array_size-1; i++)
             if(array_ptr[i] > array_ptr[i+1])
-                    Swap(&array_ptr[i], &array_ptr[i+1]);
+                Swap(&array_ptr[i], &array_ptr[i+1]);
         
         Recursive_Bubble_Sort(array_ptr, array_size-1);
     }
