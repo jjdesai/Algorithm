@@ -28,7 +28,7 @@ Below is the list of algorithm which are going to be implemet.
 - Intro Sort
 - Tree Sort
 - Sorting Network
-- Stooge Sort
+- [Stooge Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/stooge_sort.c)
 - [Bead Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/bead_sort.c)
 - [Odd-Even Sort (Brick Sort)](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/odd_even_sort.c)
 - Pigeonhole Sort
