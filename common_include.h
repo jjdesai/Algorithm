@@ -86,6 +86,7 @@
     X(MERGE_SORT,               "Merge Sort",               Merge_Sort)                 \
     X(RADIX_SORT,               "Radix Sort",               Radix_Sort)                 \
     X(STOOGE_SORT,              "Stooge Sort",              Stooge_Sort)                \
+    X(CYCLE_SORT,               "Cycle Sort",               Cycle_Sort)                 \
     X(BOGO_PERMUTATION_SORT,    "Bogo/Permutation Sort",    Bogo_Sort)                  \
     X(MAX_SORTING,              "Max Algorithm",            OutOfRange)                 \
 

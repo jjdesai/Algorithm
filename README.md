@@ -33,7 +33,7 @@ Below is the list of algorithm which are going to be implemet.
 - [Odd-Even Sort (Brick Sort)](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/odd_even_sort.c)
 - Pigeonhole Sort
 - Tournament Sort
-- Cycle Sort
+- [Cycle Sort](https://github.com/jjdesai/Sorting_Algorith/blob/main/algorithms/cycle_sort.c)
 - Patience Sort
 - Flashsort
 - Smooth Sort
